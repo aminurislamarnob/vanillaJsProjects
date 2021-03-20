@@ -1,0 +1,48 @@
+.pad {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: 0 2px;
+    background: #ddd;
+}
+
+.kick-pad {
+    background: #93f2ea;
+}
+
+.snare-pad {
+    background: #ee9a94;
+}
+
+.hihat-pad {
+    background: #eedca6;
+}
+
+.snare-pad.active {
+    background: #f44336;
+}
+
+.hihat-pad.active {
+    background: #ffc107;
+}
+
+.kick-pad.active {
+    background: #009688;
+}
+
+@keyframes playTrack{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+i{
+    pointer-events: none;
+}
+.tempo  input {
+    width: 300px;
+}
